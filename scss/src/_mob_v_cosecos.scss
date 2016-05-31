@@ -1,0 +1,31 @@
+// 5. mob_v_cosecos.scss
+
+@media screen and (max-width:360px) {
+    #wrap {width: 100%; height: 100%;}
+    
+        #headBox {width: 100%; height: 60px; margin-bottom: 20px; padding: 18px 16px 0 12px; border-bottom: 1px solid $black; box-sizing: border-box;
+            >.sitemap{display: none;}
+            
+            >.h_menu{width: 100%; height: 100%;
+                
+                >h1{/*float: left;*/
+                    
+                    >a{width: 128px; height: 26px;  background-image: url(../img/index_slice/header/h_logo.gif); background-size: contain; background-repeat: no-repeat; background-position: center; float: left;}
+                }// h1
+                
+                >.nav_2{width: 100%; height: 100%; 
+                    i{width: 26px; height: 26px; /*margin-right: 24px;*/ float: right; font-size: 1.7em; text-align: center; cursor: pointer;}
+                    li{display: none;}
+                }// .nav_2
+                >.gnb{display: none;}
+                
+            }// .h_menu
+        }// #headBox
+    
+        #banner {width: 100%; height: 42.5vw/*153/360*100*/; margin-bottom: 20px; background-image: url(../img/banner_mob.jpg); background-repeat: no-repeat; background-size: cover; }
+    
+        #content {width: 100%; height: 470px; margin: 0 auto; background-color: #fa0;}
+    
+        #footBox {width: 100%; height: 230px; margin-top: 80px; background-color: #555;}
+    
+}// @mob_v

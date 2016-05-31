@@ -1,0 +1,864 @@
+* {
+  transition: all 0.3s ease-in-out; }
+
+/*html, body{width: 100%; height: 100%;}
+#wrap {width: 100%; height: 100%;}
+    #headBox {width: 100%; height: 10rem 160px; }
+    
+    #banner {width: 978px; height: 25rem; margin: 0 auto;  background-color: $sub2;}
+
+    #content {width: 100%; height: 59.5rem; margin: 0 auto;  background-color: $sub1;}
+
+    #footBox {width: 100%; height: 7.125rem;background-color: $black;}*/
+@media screen and (min-width: 978px) {
+  #wrap {
+    width: 100%;
+    height: 100%; }
+
+  #headBox {
+    width: 100%;
+    height: 10rem; }
+    #headBox .sitemap {
+      width: 100%;
+      height: 30px;
+      background-color: #333; }
+      #headBox .sitemap .sitemapBox {
+        width: 978px;
+        height: 100%;
+        margin: 0 auto; }
+        #headBox .sitemap .sitemapBox .nav_1 {
+          width: 315px;
+          height: 100%;
+          float: right;
+          padding-top: 2px; }
+          #headBox .sitemap .sitemapBox .nav_1 li {
+            width: 100%;
+            height: 100%;
+            line-height: 30px;
+            float: left;
+            margin-right: 20px;
+            text-align: center; }
+            #headBox .sitemap .sitemapBox .nav_1 li:nth-child(1) {
+              width: 46px; }
+            #headBox .sitemap .sitemapBox .nav_1 li:nth-child(2) {
+              width: 34px; }
+            #headBox .sitemap .sitemapBox .nav_1 li:nth-child(3) {
+              width: 62px; }
+            #headBox .sitemap .sitemapBox .nav_1 li:nth-child(4) {
+              width: 40px; }
+            #headBox .sitemap .sitemapBox .nav_1 li:nth-child(5) {
+              width: 18px;
+              margin-right: 0; }
+            #headBox .sitemap .sitemapBox .nav_1 li a {
+              width: 100%;
+              height: 100%;
+              color: #fff;
+              font-size: 1em;
+              font-weight: 500; }
+            #headBox .sitemap .sitemapBox .nav_1 li a:hover {
+              text-decoration: underline; }
+            #headBox .sitemap .sitemapBox .nav_1 li i {
+              color: #fff;
+              font-size: 1.2em;
+              cursor: pointer; }
+            #headBox .sitemap .sitemapBox .nav_1 li i:hover {
+              text-decoration: underline; }
+    #headBox .h_menu {
+      width: 100%;
+      height: 100%; }
+      #headBox .h_menu > h1 {
+        width: 100%;
+        height: 40px;
+        padding: 20px 0; }
+        #headBox .h_menu > h1 > a {
+          width: 154px;
+          height: 40px;
+          background-image: url(../img/index_slice/header/h_logo.gif);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: 0 auto;
+          display: block; }
+      #headBox .h_menu > .nav_2 {
+        display: none; }
+      #headBox .h_menu > .gnb {
+        width: 100%;
+        height: 50px;
+        border-top: 1px solid #555;
+        box-sizing: border-box; }
+        #headBox .h_menu > .gnb > ul {
+          width: 968px;
+          height: 30px;
+          padding-top: 10px;
+          margin: 0 auto; }
+          #headBox .h_menu > .gnb > ul > li {
+            width: 100%;
+            height: 100%;
+            line-height: 35px;
+            float: left;
+            /*margin-right: 68px;*/
+            text-align: center; }
+            #headBox .h_menu > .gnb > ul > li:nth-child(1) {
+              width: 126px; }
+            #headBox .h_menu > .gnb > ul > li:nth-child(2) {
+              width: 150px; }
+            #headBox .h_menu > .gnb > ul > li:nth-child(3) {
+              width: 164px; }
+            #headBox .h_menu > .gnb > ul > li:nth-child(4) {
+              width: 108px; }
+            #headBox .h_menu > .gnb > ul > li:nth-child(5) {
+              width: 174px; }
+            #headBox .h_menu > .gnb > ul > li:nth-child(6) {
+              width: 120px; }
+            #headBox .h_menu > .gnb > ul > li:nth-child(7) {
+              width: 116px;
+              /*margin-right: 0;*/ }
+            #headBox .h_menu > .gnb > ul > li a {
+              width: 100%;
+              height: 100px;
+              color: #666;
+              font-size: 1.2em;
+              font-weight: 400;
+              text-align: center; }
+            #headBox .h_menu > .gnb > ul > li a:hover {
+              text-decoration: underline;
+              font-weight: 500;
+              font-size: 1.3rem; }
+
+  #banner {
+    width: 100%;
+    height: 26.38037vw;
+    margin-bottom: 20px;
+    background-image: url(../img/banner_pc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+  #content {
+    width: 960px;
+    height: 960px;
+    margin: 0 auto; }
+    #content .new_B {
+      width: 50%;
+      height: 50%;
+      float: left;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      background-image: url(../img/new_01_big.PNG);
+      background-size: 65%;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative; }
+      #content .new_B > p {
+        position: absolute; }
+        #content .new_B > p:nth-child(1) {
+          left: 35%;
+          top: 15px;
+          font-size: 1.5em;
+          color: #666;
+          font-weight: 500; }
+        #content .new_B > p:nth-child(2) {
+          left: 1.7%;
+          top: 91%; }
+    #content .new_S {
+      width: 50%;
+      height: 50%;
+      float: right; }
+      #content .new_S .new_S_01 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_02.PNG);
+        background-size: 37%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_01 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .new_S .new_S_02 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_03.PNG);
+        background-size: 75%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_02 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .new_S .new_S_03 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_04.PNG);
+        background-size: 36%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_03 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .new_S .new_S_04 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_05.PNG);
+        background-size: 26%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_04 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+    #content .best_S1 {
+      width: 25%;
+      height: 50%;
+      float: left; }
+      #content .best_S1 .best_S1_01 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_01.PNG);
+        background-size: 82%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S1 .best_S1_01 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .best_S1 .best_S1_02 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_02.PNG);
+        background-size: 64%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S1 .best_S1_02 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+    #content .best_B {
+      width: 50%;
+      height: 50%;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      float: left;
+      background-image: url(../img/best_03_big.PNG);
+      background-size: 35%;
+      background-position: 57%;
+      background-position-y: 60%;
+      background-repeat: no-repeat;
+      position: relative; }
+      #content .best_B > p {
+        position: absolute; }
+        #content .best_B > p:nth-child(1) {
+          left: 35%;
+          top: 15px;
+          font-size: 1.5em;
+          color: #666;
+          font-weight: 500; }
+        #content .best_B > p:nth-child(2) {
+          left: 1.7%;
+          top: 91%; }
+    #content .best_S2 {
+      width: 25%;
+      height: 50%;
+      float: left; }
+      #content .best_S2 .best_S2_01 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_04.PNG);
+        background-size: 44%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S2 .best_S2_01 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .best_S2 .best_S2_02 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_05.PNG);
+        background-size: 64%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S2 .best_S2_02 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+
+  #footBox {
+    width: 100%;
+    height: 140px;
+    margin-top: 150px;
+    background-color: #333; } }
+@media screen and (min-width: 769px) and (max-width: 977px) {
+  #wrap {
+    width: 100%;
+    height: 100%; }
+
+  #headBox {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 16px 26px 0 24px;
+    border-bottom: 1px solid #333;
+    box-sizing: border-box; }
+    #headBox .sitemap {
+      display: none; }
+    #headBox .h_menu {
+      width: 100%;
+      height: 100%; }
+      #headBox .h_menu > h1 {
+        /*width: 134px; height: 28px;*/
+        /*float: left; */ }
+        #headBox .h_menu > h1 a {
+          width: 134px;
+          height: 28px;
+          background-image: url(../img/index_slice/header/h_logo.gif);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          float: left; }
+      #headBox .h_menu .nav_2 {
+        /*width: 26px; height: 26px;*/ }
+        #headBox .h_menu .nav_2 > i {
+          width: 26px;
+          height: 26px;
+          /*margin-right: 24px;*/
+          float: right;
+          font-size: 1.7em;
+          text-align: center;
+          cursor: pointer; }
+        #headBox .h_menu .nav_2 > li {
+          display: none; }
+      #headBox .h_menu .gnb {
+        display: none; }
+
+  #banner {
+    width: 100%;
+    height: 39.58333vw;
+    margin-bottom: 20px;
+    background-image: url(../img/banner_tab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+  #content {
+    width: 100%;
+    height: 98.05527vw;
+    margin: 0 auto; }
+    #content .new_B {
+      width: 50%;
+      height: 50%;
+      float: left;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      background-image: url(../img/new_01_big.PNG);
+      background-size: 65%;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative; }
+      #content .new_B > p {
+        position: absolute; }
+        #content .new_B > p:nth-child(1) {
+          left: 35%;
+          top: 15px;
+          font-size: 1.5em;
+          color: #666;
+          font-weight: 500; }
+        #content .new_B > p:nth-child(2) {
+          left: 1.7%;
+          top: 91%; }
+    #content .new_S {
+      width: 50%;
+      height: 50%;
+      float: right; }
+      #content .new_S .new_S_01 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_02.PNG);
+        background-size: 37%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_01 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .new_S .new_S_02 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_03.PNG);
+        background-size: 75%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_02 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .new_S .new_S_03 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_04.PNG);
+        background-size: 36%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_03 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .new_S .new_S_04 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_05.PNG);
+        background-size: 26%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_04 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+    #content .best_S1 {
+      width: 25%;
+      height: 50%;
+      float: left; }
+      #content .best_S1 .best_S1_01 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_01.PNG);
+        background-size: 82%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S1 .best_S1_01 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .best_S1 .best_S1_02 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_02.PNG);
+        background-size: 64%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S1 .best_S1_02 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+    #content .best_B {
+      width: 50%;
+      height: 50%;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      float: left;
+      background-image: url(../img/best_03_big.PNG);
+      background-size: 35%;
+      background-position: 57%;
+      background-position-y: 60%;
+      background-repeat: no-repeat;
+      position: relative; }
+      #content .best_B > p {
+        position: absolute; }
+        #content .best_B > p:nth-child(1) {
+          left: 35%;
+          top: 15px;
+          font-size: 1.5em;
+          color: #666;
+          font-weight: 500; }
+        #content .best_B > p:nth-child(2) {
+          left: 1.7%;
+          top: 91%; }
+    #content .best_S2 {
+      width: 25%;
+      height: 50%;
+      float: left; }
+      #content .best_S2 .best_S2_01 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_04.PNG);
+        background-size: 44%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S2 .best_S2_01 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .best_S2 .best_S2_02 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_05.PNG);
+        background-size: 64%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S2 .best_S2_02 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+
+  #footBox {
+    width: 100%;
+    height: 180px;
+    margin-top: 80px;
+    background-color: #ccf; } }
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  #wrap {
+    width: 100%;
+    height: 100%; }
+
+  #headBox {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 16px 26px 0 24px;
+    border-bottom: 1px solid #333;
+    box-sizing: border-box; }
+    #headBox > .sitemap {
+      display: none; }
+    #headBox > .h_menu {
+      width: 100%;
+      height: 100%; }
+      #headBox > .h_menu > h1 {
+        /*float: left;*/ }
+        #headBox > .h_menu > h1 > a {
+          width: 134px;
+          height: 28px;
+          background-image: url(../img/index_slice/header/h_logo.gif);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          float: left; }
+      #headBox > .h_menu .nav_2 {
+        width: 100%;
+        height: 100%; }
+        #headBox > .h_menu .nav_2 i {
+          width: 26px;
+          height: 26px;
+          /*margin-right: 24px;*/
+          float: right;
+          font-size: 1.7em;
+          text-align: center;
+          cursor: pointer; }
+        #headBox > .h_menu .nav_2 li {
+          display: none; }
+      #headBox > .h_menu .gnb {
+        display: none; }
+
+  #banner {
+    width: 100%;
+    height: 39.58333vw;
+    margin-bottom: 20px;
+    background-image: url(../img/banner_tab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+  #content {
+    width: 100%;
+    height: 98.05527vw;
+    margin: 0 auto; }
+    #content .new_B {
+      width: 50%;
+      height: 50%;
+      float: left;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      background-image: url(../img/new_01_big.PNG);
+      background-size: 65%;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative; }
+      #content .new_B > p {
+        position: absolute; }
+        #content .new_B > p:nth-child(1) {
+          left: 35%;
+          top: 15px;
+          font-size: 1.5em;
+          color: #666;
+          font-weight: 500; }
+        #content .new_B > p:nth-child(2) {
+          left: 1.7%;
+          top: 91%; }
+    #content .new_S {
+      width: 50%;
+      height: 50%;
+      float: right; }
+      #content .new_S .new_S_01 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_02.PNG);
+        background-size: 37%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_01 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .new_S .new_S_02 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_03.PNG);
+        background-size: 75%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_02 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .new_S .new_S_03 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_04.PNG);
+        background-size: 36%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_03 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .new_S .new_S_04 {
+        width: 50%;
+        height: 50%;
+        float: left;
+        background-image: url(../img/new_05.PNG);
+        background-size: 26%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .new_S .new_S_04 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+    #content .best_S1 {
+      width: 25%;
+      height: 50%;
+      float: left; }
+      #content .best_S1 .best_S1_01 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_01.PNG);
+        background-size: 82%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S1 .best_S1_01 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .best_S1 .best_S1_02 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_02.PNG);
+        background-size: 64%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S1 .best_S1_02 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+    #content .best_B {
+      width: 50%;
+      height: 50%;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      float: left;
+      background-image: url(../img/best_03_big.PNG);
+      background-size: 35%;
+      background-position: 57%;
+      background-position-y: 60%;
+      background-repeat: no-repeat;
+      position: relative; }
+      #content .best_B > p {
+        position: absolute; }
+        #content .best_B > p:nth-child(1) {
+          left: 35%;
+          top: 15px;
+          font-size: 1.5em;
+          color: #666;
+          font-weight: 500; }
+        #content .best_B > p:nth-child(2) {
+          left: 1.7%;
+          top: 91%; }
+    #content .best_S2 {
+      width: 25%;
+      height: 50%;
+      float: left; }
+      #content .best_S2 .best_S2_01 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_04.PNG);
+        background-size: 44%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S2 .best_S2_01 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+      #content .best_S2 .best_S2_02 {
+        width: 100%;
+        height: 50%;
+        background-image: url(../img/best_05.PNG);
+        background-size: 64%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative; }
+        #content .best_S2 .best_S2_02 > p {
+          position: absolute;
+          left: 4%;
+          top: 82%; }
+
+  #footBox {
+    width: 100%;
+    height: 180px;
+    margin-top: 80px;
+    background-color: #08a; } }
+@media screen and (min-width: 361px) and (max-width: 640px) {
+  #wrap {
+    width: 100%;
+    height: 100%; }
+
+  #headBox {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 18px 16px 0 12px;
+    border-bottom: 1px solid #333;
+    box-sizing: border-box; }
+    #headBox > .sitemap {
+      display: none; }
+    #headBox > .h_menu {
+      width: 100%;
+      height: 100%; }
+      #headBox > .h_menu > h1 {
+        /*float: left;*/ }
+        #headBox > .h_menu > h1 > a {
+          width: 128px;
+          height: 26px;
+          background-image: url(../img/index_slice/header/h_logo.gif);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          float: left; }
+      #headBox > .h_menu > .nav_2 {
+        width: 100%;
+        height: 100%; }
+        #headBox > .h_menu > .nav_2 i {
+          width: 26px;
+          height: 26px;
+          /*margin-right: 24px;*/
+          float: right;
+          font-size: 1.7em;
+          text-align: center;
+          cursor: pointer; }
+        #headBox > .h_menu > .nav_2 li {
+          display: none; }
+      #headBox > .h_menu > .gnb {
+        display: none; }
+
+  #banner {
+    width: 100%;
+    height: 42.5vw;
+    margin-bottom: 20px;
+    background-image: url(../img/banner_mob.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+  #content {
+    width: 100%;
+    height: 470px;
+    margin: 0 auto;
+    background-color: #f50; }
+
+  #footBox {
+    width: 100%;
+    height: 230px;
+    margin-top: 80px;
+    background-color: #f05; } }
+@media screen and (max-width: 360px) {
+  #wrap {
+    width: 100%;
+    height: 100%; }
+
+  #headBox {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 18px 16px 0 12px;
+    border-bottom: 1px solid #333;
+    box-sizing: border-box; }
+    #headBox > .sitemap {
+      display: none; }
+    #headBox > .h_menu {
+      width: 100%;
+      height: 100%; }
+      #headBox > .h_menu > h1 {
+        /*float: left;*/ }
+        #headBox > .h_menu > h1 > a {
+          width: 128px;
+          height: 26px;
+          background-image: url(../img/index_slice/header/h_logo.gif);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          float: left; }
+      #headBox > .h_menu > .nav_2 {
+        width: 100%;
+        height: 100%; }
+        #headBox > .h_menu > .nav_2 i {
+          width: 26px;
+          height: 26px;
+          /*margin-right: 24px;*/
+          float: right;
+          font-size: 1.7em;
+          text-align: center;
+          cursor: pointer; }
+        #headBox > .h_menu > .nav_2 li {
+          display: none; }
+      #headBox > .h_menu > .gnb {
+        display: none; }
+
+  #banner {
+    width: 100%;
+    height: 42.5vw;
+    margin-bottom: 20px;
+    background-image: url(../img/banner_mob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+  #content {
+    width: 100%;
+    height: 470px;
+    margin: 0 auto;
+    background-color: #fa0; }
+
+  #footBox {
+    width: 100%;
+    height: 230px;
+    margin-top: 80px;
+    background-color: #555; } }
+
+/*# sourceMappingURL=cosecos.css.map */
