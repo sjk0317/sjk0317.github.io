@@ -84,7 +84,7 @@
       #headBox .h_menu > .gnb {
         width: 100%;
         height: 50px;
-        border-top: 1px solid #555;
+        border-top: 1px solid #505050;
         box-sizing: border-box; }
         #headBox .h_menu > .gnb > ul {
           width: 968px;
@@ -116,7 +116,7 @@
             #headBox .h_menu > .gnb > ul > li a {
               width: 100%;
               height: 100px;
-              color: #666;
+              color: #505050;
               font-size: 1.2em;
               font-weight: 500;
               text-align: center; }
@@ -165,7 +165,7 @@
             left: 35%;
             top: 15px;
             font-size: 1.6em;
-            color: #666;
+            color: #505050;
             font-weight: 500; }
           #content .new_B > .nBhover > p:nth-child(2) {
             left: 42%;
@@ -366,7 +366,7 @@
             left: 34%;
             top: 15px;
             font-size: 1.6em;
-            color: #666;
+            color: #505050;
             font-weight: 500; }
           #content .best_B > .bBhover > p:nth-child(2) {
             left: 36%;
@@ -446,7 +446,7 @@
     height: 60px;
     margin-bottom: 20px;
     padding: 16px 26px 0 24px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #505050;
     box-sizing: border-box; }
     #headBox .sitemap {
       display: none; }
@@ -473,7 +473,8 @@
           float: right;
           font-size: 1.7em;
           text-align: center;
-          cursor: pointer; }
+          cursor: pointer;
+          color: #505050; }
         #headBox .h_menu .nav_2 > li {
           display: none; }
       #headBox .h_menu .gnb {
@@ -520,7 +521,7 @@
             left: 35%;
             top: 4%;
             font-size: 2.62027vw;
-            color: #666;
+            color: #505050;
             font-weight: 500; }
           #content .new_B > .nBhover > p:nth-child(2) {
             left: 42%;
@@ -721,7 +722,7 @@
             left: 36%;
             top: 4%;
             font-size: 2.62027vw;
-            color: #666;
+            color: #505050;
             font-weight: 500; }
           #content .best_B > .bBhover > p:nth-child(2) {
             left: 37%;
@@ -801,7 +802,7 @@
     height: 60px;
     margin-bottom: 20px;
     padding: 16px 26px 0 24px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #505050;
     box-sizing: border-box; }
     #headBox > .sitemap {
       display: none; }
@@ -828,7 +829,8 @@
           float: right;
           font-size: 1.7em;
           text-align: center;
-          cursor: pointer; }
+          cursor: pointer;
+          color: #505050; }
         #headBox > .h_menu .nav_2 li {
           display: none; }
       #headBox > .h_menu .gnb {
@@ -875,7 +877,7 @@
             left: 30%;
             top: 4%;
             font-size: 3.33333vw;
-            color: #666;
+            color: #505050;
             font-weight: 500; }
           #content .new_B > .nBhover > p:nth-child(2) {
             left: 40%;
@@ -1076,7 +1078,7 @@
             left: 32%;
             top: 4%;
             font-size: 3.33333vw;
-            color: #666;
+            color: #505050;
             font-weight: 500; }
           #content .best_B > .bBhover > p:nth-child(2) {
             left: 32%;
@@ -1155,8 +1157,8 @@
     width: 100%;
     height: 60px;
     margin-bottom: 20px;
-    padding: 18px 16px 0 12px;
-    border-bottom: 1px solid #333;
+    padding: 16px 16px 0 12px;
+    border-bottom: 1px solid #505050;
     box-sizing: border-box; }
     #headBox > .sitemap {
       display: none; }
@@ -1183,7 +1185,8 @@
           float: right;
           font-size: 1.7em;
           text-align: center;
-          cursor: pointer; }
+          cursor: pointer;
+          color: #505050; }
         #headBox > .h_menu > .nav_2 li {
           display: none; }
       #headBox > .h_menu > .gnb {
@@ -1199,9 +1202,69 @@
 
   #content {
     width: 100%;
-    height: 470px;
-    margin: 0 auto;
-    background-color: #f50; }
+    height: 3700px;
+    margin: 0 auto; }
+    #content .new_B {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      float: left;
+      margin-bottom: 6px; }
+    #content .new_S {
+      width: 100%;
+      height: auto;
+      float: left; }
+      #content .new_S .new_S_01 {
+        width: 100%;
+        height: 600px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 6px; }
+      #content .new_S .new_S_02 {
+        width: 100%;
+        height: 600px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 6px; }
+      #content .new_S .new_S_03 {
+        display: none; }
+      #content .new_S .new_S_04 {
+        display: none; }
+    #content .best_S1 {
+      display: none;
+      /*.best_S1_01 {width: 100%; height: 600px; border: 1px solid #ccc; box-sizing: border-box; margin-bottom: 6px;}
+      .bS1_01hover {
+          p {}
+          
+      }
+      .best_S1_02 {width: 100%; height: 600px; border: 1px solid #ccc; box-sizing: border-box; margin-bottom: 6px;}
+      .bS1_02hover {
+          p {}
+          
+      }*/ }
+    #content .best_B {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      float: left;
+      margin-bottom: 6px; }
+    #content .best_S2 {
+      width: 100%;
+      height: auto;
+      float: left; }
+      #content .best_S2 .best_S2_01 {
+        width: 100%;
+        height: 600px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 6px; }
+      #content .best_S2 .best_S2_02 {
+        width: 100%;
+        height: 600px;
+        border: 1px solid #ccc;
+        box-sizing: border-box; }
 
   #footBox {
     width: 100%;
@@ -1217,8 +1280,8 @@
     width: 100%;
     height: 60px;
     margin-bottom: 20px;
-    padding: 18px 16px 0 12px;
-    border-bottom: 1px solid #333;
+    padding: 16px 16px 0 12px;
+    border-bottom: 1px solid  #505050;
     box-sizing: border-box; }
     #headBox > .sitemap {
       display: none; }
@@ -1245,7 +1308,8 @@
           float: right;
           font-size: 1.7em;
           text-align: center;
-          cursor: pointer; }
+          cursor: pointer;
+          color: #505050; }
         #headBox > .h_menu > .nav_2 li {
           display: none; }
       #headBox > .h_menu > .gnb {

@@ -33,7 +33,7 @@
             } // h1        
         
             >.nav_2{display: none;}
-            >.gnb{width: 100%; height: 50px; border-top: 1px solid #555; box-sizing: border-box;
+            >.gnb{width: 100%; height: 50px; border-top: 1px solid #505050; box-sizing: border-box;
                 >ul{width: 968px; height: 30px; padding-top: 10px; margin: 0 auto;
                     >li{width: 100%; height: 100%; line-height: 35px; float: left; /*margin-right: 68px;*/ text-align: center;
                     &:nth-child(1){width: 126px;}
@@ -43,7 +43,7 @@
                     &:nth-child(5){width: 174px;}
                     &:nth-child(6){width: 120px;}
                     &:nth-child(7){width: 116px; /*margin-right: 0;*/}
-                        a{width: 100%; height: 100px; color: #666; font-size: 1.2em; font-weight: 500; text-align: center;}
+                        a{width: 100%; height: 100px; color: #505050; font-size: 1.2em; font-weight: 500; text-align: center;}
                         a:hover {color: rgba($main,0.8);}
                          
                     }// li
@@ -61,7 +61,7 @@
             &:hover p:nth-child(1){ color: #fff;}
             &:hover p:nth-child(2){display: block; color: #fff;}
                 >p{position: absolute;  
-                &:nth-child(1){left: 35%; top: 15px; font-size: 1.6em; color: #666; font-weight:500; }
+                &:nth-child(1){left: 35%; top: 15px; font-size: 1.6em; color: #505050; font-weight:500; }
                 &:nth-child(2){left: 42%; top: 42%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}   
                 }// p
             }// .nBhover
@@ -119,7 +119,7 @@
             &:hover p:nth-child(1){ color: #fff;}
             &:hover p:nth-child(2){display: block; color: #fff;}
                 >p{position: absolute;  
-                &:nth-child(1){left: 34%; top: 15px; font-size: 1.6em; color: #666; font-weight:500; }
+                &:nth-child(1){left: 34%; top: 15px; font-size: 1.6em; color: #505050; font-weight:500; }
                 &:nth-child(2){left: 36%; top: 45%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}   
                 }// p
             }// .bBhover
