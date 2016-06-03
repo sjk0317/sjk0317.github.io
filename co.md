@@ -20,3 +20,11 @@ pc 978x258
 몹v에서의 위치 정하기
 3?&2? or3&1?
 
+vw계산만 다시 해서 몹h옵션 몹v에 넣기 몹h는 제품ㅁ 두개씩으로 다시 짜기
+
+
+m_v  
+#content {width: 100%; height: 470px; margin: 0 auto; background-color: #fa0;}
+
+
+스크롤바 18px
