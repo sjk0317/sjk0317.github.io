@@ -3,7 +3,7 @@
 @media screen and (min-width:361px) and(max-width:640px){
     #wrap {width: 100%; height: 100%;}
     
-        #headBox {width: 100%; height: 60px; margin-bottom: 20px; padding: 16px 16px 0 12px; border-bottom: 1px solid #505050; box-sizing: border-box;
+        #headBox {width: 100%; height: 60px; margin-bottom: 20px; padding: 16px 16px 0 12px; border-bottom: 1px solid $ggg; box-sizing: border-box;
             >.sitemap{display: none;}
             
             >.h_menu{width: 100%; height: 100%;
@@ -14,7 +14,7 @@
                 }// h1
                 
                 >.nav_2{width: 100%; height: 100%; 
-                    i{width: 26px; height: 26px; /*margin-right: 24px;*/ float: right; font-size: 1.7em; text-align: center; cursor: pointer; color: #505050;}
+                    i{width: 26px; height: 26px; /*margin-right: 24px;*/ float: right; font-size: 1.7em; text-align: center; cursor: pointer; color: $ggg;}
                     li{display: none;}
                 }// .nav_2
                 >.gnb{display: none;}
@@ -24,63 +24,44 @@
     
         #banner {width: 100%; height: 42.5vw/*153/360*100*/; margin-bottom: 20px; background-image: url(../img/banner_mob.jpg); background-size: cover; background-repeat: no-repeat;}
     
-        #content {width: 94.459833vw/*341px/361*100*/; height: 576.731302vw; margin: 0 auto; 
-            .new_B {width: 100%; height: 94.459833vw/*341px/361*100*/; border: 1px solid #ccc; box-sizing: border-box;  float: left; margin-bottom: 6px;
-                .nBhover {}
-                p {}
-                
+        #content {width: 100%; height: 346.666667vw/*1248px/360*100*/; margin: 0 auto; 
+            .new_B {width: 50%; height: auto; float: left;
+                >div{width: 48vw; height: 48vw; border:1px solid #f07; box-sizing: border-box; }
+//                >.nBhover {width: 47.8125vw/*306px/640*100*/; height: 47.8125vw; border: 1px solid #ccc; box-sizing: border-box; margin: 0 1.666667vw 1vw 0;background-image: url(../img/new_01_big.PNG); background-size: 74%; background-position: 50%; background-position-y: 66%; background-repeat: no-repeat; position: relative;}
+//                p {}
+//                >.mob_hUse1{width: 47.8125vw; height: 47.8125vw; border: 1px solid #ccc; box-sizing: border-box; margin: 0 1.666667vw 1vw 0;}
             }
-            .new_S {width: 100%; height: auto; float: left;
-                .new_S_01 {width: 100%; height: 94.459833vw/*341px/361*100*/; border: 1px solid #ccc; box-sizing: border-box;  margin-bottom: 6px;}
-                .nS01hover {
-                    p {}
-                    
-                }
-                .new_S_02 {width: 100%; height: 94.459833vw/*341px/361*100*/; border: 1px solid #ccc; box-sizing: border-box; margin-bottom: 6px;}
-                .nS02hover {
-                    p {}
-                    
-                }
-                .new_S_03 {display: none;}
-                .nS03hover {
-                    p {}
-                    
-                }
-                .new_S_04 {display: none;}
-                .nS04hover {
-                    p {}
-                    br {}
-                }
+            .new_S {width: 50%; height: auto; float: right;
+//                .new_S_01 {width: 100%; height: 100%;}
+//                .nS01hover {width: 47.8125vw; height: 47.8125vw; border: 1px solid #ccc; box-sizing: border-box; margin-bottom: 1vw/*6px/360*100*/;
+//                    p {}                    
+//                }
+//                .new_S_02 {width: 100%; height: 100%;}
+//                .nS02hover {width: 47.8125vw; height: 47.8125vw; border: 1px solid #ccc; box-sizing: border-box; margin-bottom: 1vw;
+//                    p {}                    
+//                }
+//                .new_S_03 {display: none;}                
+//                .new_S_04 {display: none;}                
             }
-            .best_S1 {display: none;
-                /*.best_S1_01 {width: 100%; height: 600px; border: 1px solid #ccc; box-sizing: border-box; margin-bottom: 6px;}
-                .bS1_01hover {
+            .best_S1 {display: none;}  
+            
+            .best_B {width: 50%; height: auto; float: left; 
+                .bBhover {width: 47.8125vw; height: 47.8125vw; border: 1px solid #ccc; box-sizing: border-box; /*float: left;*/ margin: 0 6px 1vw 0;}
+                    p {}
+                .mob_hUse2{width: 47.8125vw; height: 47.8125vw; border: 1px solid #ccc; box-sizing: border-box;  /*float: left;*/margin: 0 6px 1vw 0;}
+            }
+            .best_S2 {width: 50%; height: auto; float: right;
+                .best_S2_01 {width: 100%; height: 100%;}
+                .bS2_01hover {width: 47.8125vw; height: 47.8125vw; border: 1px solid #ccc; box-sizing: border-box; margin-bottom: 1vw;
                     p {}
                     
                 }
-                .best_S1_02 {width: 100%; height: 600px; border: 1px solid #ccc; box-sizing: border-box; margin-bottom: 6px;}
-                .bS1_02hover {
-                    p {}
-                    
-                }*/
-            }
-            .best_B {width: 100%; height: 94.459833vw/*341px/361*100*/; border: 1px solid #ccc; box-sizing: border-box;  float: left; margin-bottom: 6px;
-                .bBhover {}
-                p {}
-                
-            }
-            .best_S2 {width: 100%; height: auto; float: left;
-                .best_S2_01 {width: 100%; height: 94.459833vw/*341px/361*100*/; border: 1px solid #ccc; box-sizing: border-box; margin-bottom: 6px;}
-                .bS2_01hover {
+                .best_S2_02 {width: 100%; height: 100%;}
+                .bS2_02hover {width: 47.8125vw; height: 47.8125vw; border: 1px solid #ccc; box-sizing: border-box; margin-bottom: 1vw;
                     p {}
                     
                 }
-                .best_S2_02 {width: 100%; height: 94.459833vw/*341px/361*100*/; border: 1px solid #ccc; box-sizing: border-box;}
-                .bS2_02hover {
-                    p {}
-                    
-                }
-            }
+            }// .best_S2
     
     
     }// #content
