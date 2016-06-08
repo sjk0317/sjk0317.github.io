@@ -1566,7 +1566,8 @@
             line-height: 9.86842vw; }
     #content .new_S {
       width: 94.73684vw;
-      height: auto; }
+      height: auto;
+      margin: 0 auto; }
       #content .new_S .new_S_01 {
         width: 94.73684vw;
         height: 115.13158vw;
