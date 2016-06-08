@@ -1531,7 +1531,7 @@
 
   #content {
     width: 100%;
-    height: 1204vw; }
+    height: 1230vw; }
     #content .new_B {
       width: 94.73684vw;
       height: 131.57895vw;
@@ -1569,7 +1569,8 @@
       height: auto; }
       #content .new_S .new_S_01 {
         width: 94.73684vw;
-        height: 115.13158vw; }
+        height: 115.13158vw;
+        margin: 0 auto; }
       #content .new_S .nS01hover {
         width: 100%;
         height: 100%;
@@ -1592,7 +1593,8 @@
           line-height: 9.86842vw; }
       #content .new_S .new_S_02 {
         width: 94.73684vw;
-        height: 115.13158vw; }
+        height: 115.13158vw;
+        margin: 0 auto; }
       #content .new_S .nS02hover {
         width: 100%;
         height: 100%;
@@ -1615,7 +1617,8 @@
           line-height: 9.86842vw; }
       #content .new_S .new_S_03 {
         width: 94.73684vw;
-        height: 115.13158vw; }
+        height: 115.13158vw;
+        margin: 0 auto; }
       #content .new_S .nS03hover {
         width: 100%;
         height: 100%;
@@ -1638,7 +1641,8 @@
           line-height: 9.86842vw; }
       #content .new_S .new_S_04 {
         width: 94.73684vw;
-        height: 115.13158vw; }
+        height: 115.13158vw;
+        margin: 0 auto; }
       #content .new_S .nS04hover {
         width: 100%;
         height: 100%;
@@ -1787,6 +1791,50 @@
           font-size: 5.78947vw;
           text-align: center;
           line-height: 9.86842vw; }
+
+  #board {
+    width: 100%;
+    height: auto; }
+    #board .noticeBox {
+      width: 100%;
+      height: 300px; }
+      #board .noticeBox h2 {
+        width: 80vw;
+        height: 18px;
+        margin: 0 auto; }
+      #board .noticeBox ul {
+        width: 80vw;
+        height: 20px;
+        margin: 0 auto; }
+        #board .noticeBox ul li {
+          width: 100%;
+          height: 16px; }
+          #board .noticeBox ul li a {
+            width: 100%;
+            height: 100%;
+            font-size: 1em;
+            color: #333;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+            #board .noticeBox ul li a:hover {
+              text-decoration: underline; }
+    #board .qnaBox {
+      width: 100%;
+      height: 300px; }
+      #board .qnaBox h2 {
+        width: 80vw;
+        height: 18px;
+        margin: 0 auto; }
+      #board .qnaBox ul {
+        width: 80vw;
+        height: 20px;
+        margin: 0 auto; }
+        #board .qnaBox ul li a {
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          #board .qnaBox ul li a:hover {
+            text-decoration: underline; }
 
   #footBox {
     width: 100%;
