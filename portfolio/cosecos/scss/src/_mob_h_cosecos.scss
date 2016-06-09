@@ -1,7 +1,7 @@
 // 4. mob_h_cosecos.scss
 
 @media screen and (min-width:361px) and(max-width:640px){
-    #wrap {width: 100%; height: 100%;}
+    #wrap {width: 100%; height: 100%;
     
         #headBox {width: 100%; height: 60px; margin-bottom: 20px; padding: 16px 16px 0 12px; border-bottom: 1px solid $ggg; box-sizing: border-box;
             >.sitemap{display: none;}
@@ -24,7 +24,8 @@
     
         #banner {width: 100%; height: 42.5vw/*153/360*100*/; margin-bottom: 20px; background-image: url(../img/banner_mob.jpg); background-size: cover; background-repeat: no-repeat;}
     
-        #content {width: 100%; height: 489vw/*1810px/361*100*/; 
+        #content {width: 100%; height: 492vw; 
+            
             .new_B {width: 94.736842vw/*342px/361*100*/; height: 47.368421vw/*171px/361*100*/; margin: 0 auto;
                 .nBhover {width: 100%; height: 100%; float: left; border: 1px solid #ccc; box-sizing: border-box; background-image: url(../img/new_01_big.PNG); background-size: 35%; background-position: 50%; background-position-x: 14%; background-repeat: no-repeat; position: relative; margin-bottom: 6px; 
                 }
@@ -92,10 +93,37 @@
                     p {position: absolute; left: 60%; top: 18%; font-size: 4vw; text-align: center; line-height: 8vw;
                     }                    
                 }
+            }   
+        }// #content
+    
+        #board {width: 100%; height: auto; margin-top: 100px;
+            .noticeBox {width: 100%; height: 200px;
+                h2 {width: 80vw; height: 28px; margin: 0 auto; border-bottom: 1px solid #ccc; color: $ggg; font-size: 1.2em; font-weight: 500;}
+                ul {width: 80vw; height: auto; margin: 0 auto; margin-top: 14px;
+                    li {width: 100%; height: 22px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+                        a {width: 100%; height: 100%; font-size: 1em; color: #333;      
+                            &:hover{text-decoration: underline;
+                            }
+                        }
+                    }
+                }
             }
+
+            .qnaBox {width: 100%; height: 200px; 
+                h2 {width: 80vw; height: 28px; margin: 0 auto; border-bottom: 1px solid #ccc; color: $ggg; font-size: 1.2em; font-weight: 500;}
+                ul {width: 80vw; height: auto; margin: 0 auto; margin-top: 14px;      
+                    li {width: 100%; height: 22px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+                        a {width: 100%; height: 100%; font-size: 1em; color: #333;
+                            &:hover{text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }       
+        }// #board    
     
-    }// #content
-    
-        #footBox {width: 100%; height: 230px; margin-top: 80px; background-color: #f05;}
-    
+        #footBox {width: 100%; height: 230px; margin-top: 80px; background-color: #f05;
+            
+        }// #footBox
+    }// #wrap
 }// @mob_h
