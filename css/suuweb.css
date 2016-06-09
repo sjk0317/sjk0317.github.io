@@ -4,7 +4,8 @@
   margin: 0 auto;
   background-image: url(../img/bgi.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  /*background-position: 90%;*/ }
   #wrap #headBox {
     width: 100%;
     height: calc(512px - 200px);
@@ -15,7 +16,7 @@
     #wrap #headBox h1 {
       width: 100px;
       height: 83px;
-      background-image: url(../img/crystal2_b1.png);
+      background-image: url(../img/crystal_bbbbbbbbbb.png);
       background-size: 100% 100%;
       background-repeat: no-repeat;
       margin: 0 auto;
@@ -31,7 +32,7 @@
       left: 8px; }
   #wrap #menuBtn {
     width: 100%;
-    height: 300px; }
+    height: 420px; }
     #wrap #menuBtn ul {
       width: 200px;
       height: 100%;
@@ -50,5 +51,9 @@
           text-align: center; }
           #wrap #menuBtn ul li a:hover {
             font-weight: 500; }
+  #wrap #footBox {
+    width: 100%;
+    height: 100px;
+    background-color: #a89; }
 
 /*# sourceMappingURL=suuweb.css.map */
