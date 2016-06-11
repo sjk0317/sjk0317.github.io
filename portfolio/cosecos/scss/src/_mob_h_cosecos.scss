@@ -2,6 +2,16 @@
 
 @media screen and (min-width:361px) and(max-width:640px){
     #wrap {width: 100%; height: 100%;
+        
+        #topAdd{width: auto; height: 6rem; background-color: #eee; padding: 1rem 0.9rem; position: relative; 
+            p{width: 93%; height: auto; line-height: 1.5rem; color: #333; font-size: 1.1rem; margin-bottom: 0.5rem;}            
+            .addbox{width: auto; height: auto; float: left;
+                a{color: #555; font-size: 0.9rem;
+                    &:hover{text-decoration: underline;}
+                }
+            }        
+            button{width: 2rem; height: 2rem; float: right; color: #333;  font-size: 2rem; position: absolute; top: 40%; right: 1%;}
+        }// #topAdd
     
         #headBox {width: 100%; height: 60px; margin-bottom: 20px; padding: 16px 16px 0 12px; border-bottom: 1px solid $ggg; box-sizing: border-box;
             >.sitemap{display: none;}
@@ -122,8 +132,30 @@
             }       
         }// #board    
     
-        #footBox {width: 100%; height: 230px; margin-top: 80px; background-color: #f05;
+        #footBox {width: 100%; height: auto; margin-top: 50px; background-color: #ccc; padding-top: 50px;
             
+            h2 {width: 70vw; height: 44px;  margin: 0 auto;
+                a{width: 100%; height: 100%; font-size: 1.5em; font-weight: bold; color: #777;
+                    &:hover{color: #333;}
+                }
+            }                            
+            .addBox {width: 100%; height: auto;
+                ul {width: 70vw; height: 180px; margin: 0 auto;
+                    li {width: 70vw; height: 30px;  
+                        a {width: 100%; height: 100%; color: #fff;
+                            &:hover{ text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }// .addBox
+            address {display: none;
+                p {
+                    &:nth-child(1){}
+                    &:nth-child(2){border-top: 1px solid #ccc; padding-top: 8px;}
+                }
+            }
+            .foot_img {display: none;}  
         }// #footBox
     }// #wrap
 }// @mob_h
