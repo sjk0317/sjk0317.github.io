@@ -1,6 +1,6 @@
 $(function(){
 
-    /*// top_btn
+    // top_btn
     var topBtn = $('#topBtn');
     topBtn.hide();
       
@@ -8,17 +8,17 @@ $(function(){
         
     var sc = $(this).scrollTop();
             
-    if(sc <= 1000){
-        topBtn.fadeOut(1000);        
+    if(sc <= 200){
+        topBtn.fadeOut(200);        
     }else{
-        topBtn.fadeIn(1000);
+        topBtn.fadeIn(200);
     }    
     });    
     
     topBtn.on('click', function(){
         // $(window).scrollTop(0);
         $('html, body').animate({'scrollTop':0},500);
-    }); // top_btn*/
+    }); // top_btn
     
     
     $('wrap').on('click', function(){

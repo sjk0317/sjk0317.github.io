@@ -112,7 +112,7 @@
                 ul {width: 80vw; height: auto; margin: 0 auto; margin-top: 14px;
                     li {width: 100%; height: 22px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
                         a {width: 100%; height: 100%; font-size: 1em; color: #333;      
-                            &:hover{text-decoration: underline;
+                            &:active{text-decoration: underline;
                             }
                         }
                     }
@@ -124,26 +124,30 @@
                 ul {width: 80vw; height: auto; margin: 0 auto; margin-top: 14px;      
                     li {width: 100%; height: 22px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
                         a {width: 100%; height: 100%; font-size: 1em; color: #333;
-                            &:hover{text-decoration: underline;
+                            &:active{text-decoration: underline;
                             }
                         }
                     }
                 }
             }       
-        }// #board    
+        }// #board
+        
+        #topBtn{width: 2.3rem; height: 1.4rem; border-radius: 0.1rem; z-index: 500; position: fixed; bottom: 3%; right: 5%; /*margin-right: -7rem;*/ cursor: pointer; background-image: url(../img/topBtnS.png); background-repeat: no-repeat; background-size: contain;  background-color: rgba(0,0,0,0.2);
+            &:active{background-image: url(../img/topBtnS_allG.png); background-repeat: no-repeat; background-size: contain;}
+        }// #topBtn
     
         #footBox {width: 100%; height: auto; margin-top: 50px; background-color: #ccc; padding-top: 50px;
             
             h2 {width: 70vw; height: 44px;  margin: 0 auto;
                 a{width: 100%; height: 100%; font-size: 1.5em; font-weight: bold; color: #777;
-                    &:hover{color: #333;}
+                    &:active{color: #333;}
                 }
             }                            
             .addBox {width: 100%; height: auto;
                 ul {width: 70vw; height: 180px; margin: 0 auto;
                     li {width: 70vw; height: 30px;  
                         a {width: 100%; height: 100%; color: #fff;
-                            &:hover{ text-decoration: underline;
+                            &:active{ text-decoration: underline;
                             }
                         }
                     }

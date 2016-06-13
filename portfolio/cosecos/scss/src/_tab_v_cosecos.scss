@@ -35,15 +35,12 @@
     
         #content {width: 100%; height: 98.055271vw/*958/977*100*/; margin: 0 auto; margin-bottom: 100px;
             
-            .new_B {width: 50%; height: 50%; float: left; border: 1px solid #ccc; box-sizing: border-box; background-image: url(../img/new_01_big.PNG); background-size: 50%; background-position: 50%; background-position-y: 66%; background-repeat: no-repeat; position: relative;
-                >a{width: 100%; height: 100%;
-                    >.nBhover{width: 100%; height: 100%; background-color: transparent;
-                    &:hover{background-color: rgba(0,0,0,0.5); }
-                    &:hover p:nth-child(1){ color: #fff;}
-                    &:hover p:nth-child(2){display: block; color: #fff;}
-                        >p{position: absolute;  
-                        &:nth-child(1){left: 30%; top: 4%; font-size: 3.333333vw/*1.6em/768*100*/; color: $ggg; font-weight:500; }
-                        &:nth-child(2){left: 40%; top: 42%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; display: none; line-height: 3.255208vw/*25px/768*100*/;}   
+            .new_B {width: 50%; height: 50%; float: left; border: 1px solid #ccc; box-sizing: border-box; background-image: url(../img/new_01_big.PNG); background-size: 55%; background-position: 50%; background-position-y: 40%; background-repeat: no-repeat; position: relative;
+                a {width: 100%; height: 100%;
+                    .nBhover{width: 100%; height: 26%;  margin-top: 75%;                    
+                        p {position: absolute; text-align: center;
+                        &:nth-child(1){left: 30%; top: 4%; font-size: 3.333333vw/*1.6em/768*100*/; color: $ggg; font-weight:500;}
+                        &:nth-child(2){left: 40%; top: 78%; font-size: 2.291666vw/*1.1em/768*100*/; line-height: 3.3vw; color: #333;}   
                         }// p
                     }// .nBhover
                 }// a
@@ -51,71 +48,56 @@
             .new_S {width: 50%; height: 50%; float: right;
                 .new_S_01 {width: 50%; height: 50%; float: left; background-image: url(../img/new_02.PNG); background-size: 47%; background-position: center; background-repeat: no-repeat; position: relative;
                     a{width: 100%; height: 100%;
-                        .nS01hover{width: 100%; height: 100%; background-color: transparent;
-                        &:hover{background-color: rgba(0,0,0,0.5);}                
-                        &:hover p{display: block; color: #fff;}    
-                            >p{position: absolute; left: 12%; top: 34%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; display: none; line-height: 3.255208vw/*25px/768*100*/;}
+                        .nS01hover{width: 100%; height: 47%;  margin-top: 53%; background-color: rgba(0,0,0,0.4);
+                            p{position: absolute; left: 12%; top: 57%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; line-height: 3.255208vw/*25px/768*100*/; color: #fff;}
                         }// .nS01hover
                     }// a
                 }// .new_S_01
                 .new_S_02 {width: 50%; height: 50%; float: left; background-image: url(../img/new_03.PNG); background-size: 82%; background-position: center;
                     background-position-y:58%; background-repeat: no-repeat; position: relative;
                     a{width: 100%; height: 100%;
-                        .nS02hover{width: 100%; height: 100%; background-color: transparent;
-                        &:hover{background-color: rgba(0,0,0,0.5);}                
-                        &:hover p{display: block; color: #fff;}    
-                            >p{position: absolute; left:24%; top: 32%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; display: none; line-height: 3.255208vw/*25px/768*100*/;}
+                        .nS02hover{width: 100%; height: 47%;  margin-top: 53%; background-color: rgba(0,0,0,0.4);    
+                            >p{position: absolute; left:24%; top: 57%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; line-height: 3.255208vw/*25px/768*100*/; color: #fff;}
                         }// .nS02hover
                     }// a
                 }// .new_S_02
                 .new_S_03 {width: 50%; height: 50%; float: left; background-image: url(../img/new_04.PNG); background-size: 48%; background-position: center; background-repeat: no-repeat; position: relative;
                     a{width: 100px; height: 100%;
-                        .nS03hover{width: 100%; height: 100%; background-color: transparent;
-                        &:hover{background-color: rgba(0,0,0,0.5);}                
-                        &:hover p{display: block; color: #fff;}    
-                            >p{position: absolute; left: 18%; top: 26%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; display: none; line-height: 3.255208vw/*25px/768*100*/;}
+                        .nS03hover{width: 100%; height: 51%;  margin-top: 49%; background-color: rgba(0,0,0,0.4);    
+                            >p{position: absolute; left: 18%; top: 50%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; line-height: 3.2vw; color: #fff;}
                         }// .nS03hover
                     }// a
                 }// .new_S_03
                 .new_S_04 {width: 50%; height: 50%; float: left; background-image: url(../img/new_05.PNG); background-size: 34%; background-position: center; background-repeat: no-repeat; position: relative;
                     a{width: 100%; height: 100%;
-                        .nS04hover{width: 100%; height: 100%; background-color: transparent;
-                        &:hover{background-color: rgba(0,0,0,0.5);}                
-                        &:hover p{display: block; color: #fff;}
-                        >p{position: absolute; left: 12%; top: 35%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; display: none; line-height: 3.255208vw/*25px/768*100*/;}
+                        .nS04hover{width: 100%; height: 51%;  margin-top: 49%; background-color: rgba(0,0,0,0.4);
+                        >p{position: absolute; left: 12%; top: 55%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; line-height: 3.255208vw/*25px/768*100*/; color: #fff;}
                         }// .nS04hover
                     }// a
                 }
             }// .new_S
             .best_S1 {width: 25%; height: 50%; float: left;
                 .best_S1_01 {width: 100%; height: 50%; background-image: url(../img/best_01.PNG); background-size: 84%; background-position: center; background-repeat: no-repeat; position: relative;
-                    a{width: 100%; height: 100%;
-                        .bS1_01hover{width: 100%; height: 100%; background-color: transparent;
-                        &:hover{background-color: rgba(0,0,0,0.5);}                
-                        &:hover p{display: block; color: #fff;}
-                        >p{position: absolute; left: 29%; top: 32%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; display: none; line-height: 3.255208vw/*25px/768*100*/;}
+                    a{width: 100%; height: 100%; 
+                        .bS1_01hover{width: 100%; height: 47%; position: absolute; top: 53%; background-color: rgba(0,0,0,0.4);
+                        >p{position: absolute; left: 29%; top: 10%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; line-height: 3.255208vw/*25px/768*100*/; color: #fff;}
                         }// .bS1_01hover
                     }// a
                 }// .best_S1_01
                 .best_S1_02 {width: 100%; height: 50%; background-image: url(../img/best_02.PNG); background-size: 78%; background-position: center; background-repeat: no-repeat; position: relative;
-                    a{width: 100%; height: 100%;
-                        .bS1_02hover{width: 100%; height: 100%; background-color: transparent;
-                        &:hover{background-color: rgba(0,0,0,0.5);}                
-                        &:hover p{display: block; color: #fff;}
-                        >p{position: absolute; left: 12%; top: 32%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; display: none; line-height: 3.255208vw/*25px/768*100*/;}
+                    a {width: 100%; height: 100%;
+                        .bS1_02hover {width: 100%; height: 51%; position: absolute; top: 49%; background-color: rgba(0,0,0,0.4);
+                        p {position: absolute; left: 12%; top: 15%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; line-height: 3.255208vw/*25px/768*100*/; color: #fff;}
                         }// .bS1_02hover
                     }// a
                 }// .best_S1_02
             }// .best_S1
-            .best_B {width: 50%; height: 50%; border: 1px solid #ccc; box-sizing: border-box; float: left; background-image: url(../img/best_03_big.PNG); background-size: 36%; background-position: 57%; background-position-y: 75%; background-repeat: no-repeat; position: relative;
-                a{width: 100%; height: 100%;
-                    >.bBhover{width: 100%; height: 100%; background-color: transparent;
-                    &:hover{background-color: rgba(0,0,0,0.5); }
-                    &:hover p:nth-child(1){ color: #fff;}
-                    &:hover p:nth-child(2){display: block; color: #fff;}
-                        >p{position: absolute;  
+            .best_B {width: 50%; height: 50%; border: 1px solid #ccc; box-sizing: border-box; float: left; background-image: url(../img/best_03_big.PNG); background-size: 26%; background-position: 57%; background-position-y: 38%; background-repeat: no-repeat; position: relative;
+                a {width: 100%; height: 100%;
+                    .bBhover {width: 100%; height: 26%;  margin-top: 75%;
+                        p {position: absolute; text-align: center;
                         &:nth-child(1){left: 32%; top: 4%; font-size: 3.333333vw/*1.6em/768*100*/; color: $ggg; font-weight:500; }
-                        &:nth-child(2){left: 32%; top: 45%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; display: none; line-height: 3.255208vw/*25px/768*100*/;}   
+                        &:nth-child(2){left: 32%; top: 78%; font-size: 2.291666vw/*1.1em/768*100*/; line-height: 3.3vw; color: #333;}   
                         }// p
                     }// .bBhover
                 }// a
@@ -126,19 +108,15 @@
             .best_S2 {width: 25%; height: 50%; float: left;
                 .best_S2_01 {width: 100%; height: 50%; background-image: url(../img/best_04.PNG); background-size: 50%; background-position: center; background-position-y: 100%; background-repeat: no-repeat; position: relative;
                     a{width: 100%; height: 100%;
-                        .bS2_01hover{width: 100%; height: 100%; background-color: transparent;
-                        &:hover{background-color: rgba(0,0,0,0.5);}                
-                        &:hover p{display: block; color: #fff;}
-                        >p{position: absolute; left: 12%; top: 32%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; display: none; line-height: 3.255208vw/*25px/768*100*/;}
+                        .bS2_01hover{width: 100%; height: 47%; position: absolute; top: 53%; background-color: rgba(0,0,0,0.4);
+                        >p{position: absolute; left: 12%; top: 12%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; line-height: 3.255208vw/*25px/768*100*/; color: #fff;}
                         }// .bS2_01hover
                     }// a
                 }// .best_S2_01
                 .best_S2_02 {width: 100%; height: 50%; background-image: url(../img/best_05.PNG); background-size: 82%; background-position: center; background-repeat: no-repeat; position: relative;
                     a{width: 100%; height: 100%;
-                        .bS2_02hover{width: 100%; height: 100%; background-color: transparent;
-                        &:hover{background-color: rgba(0,0,0,0.5);}                
-                        &:hover p{display: block; color: #fff;}
-                        >p{position: absolute; left: 18%; top: 24%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; display: none; line-height: 3.255208vw/*25px/768*100*/;}
+                        .bS2_02hover{width: 100%; height: 51%; position: absolute; top: 49%; background-color: rgba(0,0,0,0.4);
+                        >p{position: absolute; left: 18%; top: 3%; font-size: 2.291666vw/*1.1em/768*100*/; text-align: center; line-height: 3.2vw; color: #fff;}
                         }// .bS2_02hover
                     }// a
                 }// .best_S2_02
@@ -170,9 +148,49 @@
                 }
             }       
         }// #board
+        
+        #topBtn{width: 2.3rem; height: 1.4rem; border-radius: 0.1rem; z-index: 500; position: fixed; bottom: 3%; right: 5%; /*margin-right: -2.5rem;*/ cursor: pointer; background-image: url(../img/topBtnS.png); background-repeat: no-repeat; background-size: contain;  background-color: rgba(0,0,0,0.2);
+            &:active{background-image: url(../img/topBtnS_allG.png); background-repeat: no-repeat; background-size: contain;}
+        }// #topBtn
     
-        #footBox {width: 100%; height: 180px; margin-top: 80px; background-color: #08a;
-            
+        #footBox {width: 100%; height: auto; margin-top: 50px; background-color: #ccc; /*margin: 0 auto;*/
+            .centerBox {width: 640px; height: 300px; margin: 0 auto;
+                
+                h2 {width: 100px; height: auto; padding: 50px 20px 20px 20px; float: left;
+                    a{width: 70px; height: 100%; font-size: 1.5em; font-weight: bold; color: #777; 
+                        &:active{color: #333;}
+                    }
+                }                            
+                .addBox {width: 30rem; height: 46px;  float: right; padding: 52px 12px 0 0;
+                    ul {width: 570px; height: 22px; margin: 0 auto;
+                        li {width: 100%; height: 14px; border-right: 1px solid #fff; float: left; text-align: center; line-height: 19px; /*list-style: none;*/ padding: 0 20px;
+                        &:nth-child(1) {width: 88px; padding-left: 0;} 
+                        &:nth-child(2) {width: 62px;} 
+                        &:nth-child(3) {width: 62px;}
+                        &:nth-child(4) {width: 122px; border-right: 0; padding-right: 0;}                
+                            a {width: 100%; height: 100%; color: #fff; font-size: 1rem; text-align: center;
+                                &:active{ text-decoration: underline;
+                                }
+                            }// a
+                        }// li
+                    }
+                }// .addBox
+                address {width: auto; height: auto; float: left; padding-left: 40px;
+                    p {line-height: 20px;
+                        &:nth-child(1){color: #333; font-size: 0.9rem;}
+                        &:nth-child(2){border-top: 1px solid #ccc; padding-top: 16px; }
+                    }
+                }
+                .foot_mark {width: 90px; height: 60px; float: left;  margin: 30px 20px;
+                    a {width: 100%; height: 100%;
+                        &:hover{
+                        }
+                    }
+                    .f_mark {width: 100%; height: 100%; background-image: url(../img/foo_mark2.png); background-size: 100%; background-position: center; background-repeat: no-repeat;
+                        span{width: 0; height: 0; display: block; overflow: hidden;}
+                    }// .f_mark
+                }// .foot_mark
+            }// .centerBox            
         }// #footBox
     }// #wrap
 }// @tab_v

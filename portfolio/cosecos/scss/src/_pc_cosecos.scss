@@ -1,8 +1,21 @@
 // 1. pc_cosecos.scss
 
 @media screen and (min-width:978px) {
-    #wrap {width: 100%; height: 100%;
+    #wrap {width: 100%; height: 100%; 
     //.nav_2{display: none !important;}
+        
+        .center_box {width: 100%; height: 100%;  background-color: #eee;
+            #topAdd{width: 978px; height: 3.5rem;  padding: 1.5rem 0.7rem; position: relative; margin: 0 auto;
+                p{width: 95%; height: auto; line-height: 1.7rem; color: #333; font-size: 1.1rem; margin-bottom: 0.5rem;}            
+                .addbox{width: auto; height: auto; float: left; 
+                    a{color: #555; font-size: 0.9rem;
+                        &:hover{text-decoration: underline;}
+                    }
+                }        
+                button{width: 2rem; height: 2rem; float: right; color: #333;  font-size: 2rem; position: absolute; top: 40%; right: 1%;}
+            }// #topAdd
+        }// .center_box
+        
         #headBox {width: 100%; height: 10rem; 
 
             .sitemap{width: 100%; height: 30px; background-color: $black;
@@ -56,92 +69,112 @@
 
         #content {width: 960px; height: 960px; margin: 0 auto; 
             .new_B {width: 50%; height: 50%; float: left; border: 1px solid #ccc; box-sizing: border-box; background-image: url(../img/new_01_big.PNG); background-size: 74%; background-position: 50%; background-position-y: 66%; background-repeat: no-repeat; position: relative;
-                >.nBhover{width: 100%; height: 100%; background-color: transparent;
-                &:hover{background-color: rgba(0,0,0,0.5); }
-                &:hover p:nth-child(1){ color: #fff;}
-                &:hover p:nth-child(2){display: block; color: #fff;}
-                    >p{position: absolute;  
-                    &:nth-child(1){left: 35%; top: 15px; font-size: 1.6em; color: $ggg; font-weight:500; }
-                    &:nth-child(2){left: 42%; top: 42%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}   
-                    }// p
-                }// .nBhover
-                >.mob_hUse{display: none;}
+                a{width: 100%; height: 100%;
+                    .nBhover{width: 100%; height: 100%; background-color: transparent;
+                    &:hover{background-color: rgba(0,0,0,0.5); }
+                    &:hover p:nth-child(1){ color: #fff;}
+                    &:hover p:nth-child(2){display: block; color: #fff;}
+                        p{position: absolute;  
+                        &:nth-child(1){left: 35%; top: 15px; font-size: 1.6em; color: $ggg; font-weight:500; }
+                        &:nth-child(2){left: 42%; top: 42%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}   
+                        }// p
+                    }// .nBhover
+                }// a
+                .mob_hUse{display: none;}
             }// .new_B
             .new_S {width: 50%; height: 50%; float: right;
                 .new_S_01 {width: 50%; height: 50%; float: left; background-image: url(../img/new_02.PNG); background-size: 47%; background-position: center; background-repeat: no-repeat; position: relative;
-                    .nS01hover{width: 100%; height: 100%; background-color: transparent;
-                    &:hover{background-color: rgba(0,0,0,0.5);}                
-                    &:hover p{display: block; color: #fff;}    
-                        >p{position: absolute; left: 20%; top: 34%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
-                    }// .nS01hover
+                    a{width: 100%; height: 100%;
+                        .nS01hover{width: 100%; height: 100%; background-color: transparent;
+                        &:hover{background-color: rgba(0,0,0,0.5);}                
+                        &:hover p{display: block; color: #fff;}    
+                            p{position: absolute; left: 20%; top: 34%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
+                        }// .nS01hover
+                    }// a
                 }// .new_S_01
                 .new_S_02 {width: 50%; height: 50%; float: left; background-image: url(../img/new_03.PNG); background-size: 82%; background-position: center;
                     background-position-y:58%; background-repeat: no-repeat; position: relative;
-                    .nS02hover{width: 100%; height: 100%; background-color: transparent;
-                    &:hover{background-color: rgba(0,0,0,0.5);}                
-                    &:hover p{display: block; color: #fff;}    
-                        >p{position: absolute; left:30%; top: 36%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
-                    }// .nS02hover                
+                    a{width: 100%; height: 100%;
+                        .nS02hover{width: 100%; height: 100%; background-color: transparent;
+                        &:hover{background-color: rgba(0,0,0,0.5);}                
+                        &:hover p{display: block; color: #fff;}    
+                            p{position: absolute; left:30%; top: 36%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
+                        }// .nS02hover
+                    }// a
                 }// .new_S_02
                 .new_S_03 {width: 50%; height: 50%; float: left; background-image: url(../img/new_04.PNG); background-size: 48%; background-position: center; background-repeat: no-repeat; position: relative;
-                    .nS03hover{width: 100%; height: 100%; background-color: transparent;
-                    &:hover{background-color: rgba(0,0,0,0.5);}                
-                    &:hover p{display: block; color: #fff;}    
-                        >p{position: absolute; left: 26%; top: 26%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
-                    }// .nS03hover                
+                    a{width: 100%; height: 100%;
+                        .nS03hover{width: 100%; height: 100%; background-color: transparent;
+                        &:hover{background-color: rgba(0,0,0,0.5);}                
+                        &:hover p{display: block; color: #fff;}    
+                            p{position: absolute; left: 26%; top: 26%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
+                        }// .nS03hover
+                    }// a
                 }// .new_S_03
                 .new_S_04 {width: 50%; height: 50%; float: left; background-image: url(../img/new_05.PNG); background-size: 34%; background-position: center; background-repeat: no-repeat; position: relative;
-                    .nS04hover{width: 100%; height: 100%; background-color: transparent;
-                    &:hover{background-color: rgba(0,0,0,0.5);}                
-                    &:hover p{display: block; color: #fff;}
-                    >p{position: absolute; left: 20%; top: 35%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
-                    }// .nS04hover                
-                }
+                    a{width: 100%; height: 100%;
+                        .nS04hover{width: 100%; height: 100%; background-color: transparent;
+                        &:hover{background-color: rgba(0,0,0,0.5);}                
+                        &:hover p{display: block; color: #fff;}
+                        p{position: absolute; left: 20%; top: 35%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
+                        }// .nS04hover
+                    }// a
+                }// .new_S_04
             }// .new_S
             .best_S1 {width: 25%; height: 50%; float: left;
                 .best_S1_01 {width: 100%; height: 50%; background-image: url(../img/best_01.PNG); background-size: 84%; background-position: center; background-repeat: no-repeat; position: relative;
-                    .bS1_01hover{width: 100%; height: 100%; background-color: transparent;
-                    &:hover{background-color: rgba(0,0,0,0.5);}                
-                    &:hover p{display: block; color: #fff;}
-                    >p{position: absolute; left: 32%; top: 32%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
-                    }// .bS1_01hover                
+                    a{width: 100%; height: 100%;
+                        .bS1_01hover{width: 100%; height: 100%; background-color: transparent;
+                        &:hover{background-color: rgba(0,0,0,0.5);}                
+                        &:hover p{display: block; color: #fff;}
+                        p{position: absolute; left: 32%; top: 32%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
+                        }// .bS1_01hover  
+                    }// a
                 }// .best_S1_01
                 .best_S1_02 {width: 100%; height: 50%; background-image: url(../img/best_02.PNG); background-size: 78%; background-position: center; background-repeat: no-repeat; position: relative;
-                    .bS1_02hover{width: 100%; height: 100%; background-color: transparent;
-                    &:hover{background-color: rgba(0,0,0,0.5);}                
-                    &:hover p{display: block; color: #fff;}
-                    >p{position: absolute; left: 20%; top: 32%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
-                    }// .bS1_02hover
+                    a{width: 100%; height: 100%;
+                        .bS1_02hover{width: 100%; height: 100%; background-color: transparent;
+                        &:hover{background-color: rgba(0,0,0,0.5);}                
+                        &:hover p{display: block; color: #fff;}
+                        p{position: absolute; left: 20%; top: 32%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
+                        }// .bS1_02hover
+                    }// a
                 }// .best_S1_02
             }// .best_S1
             .best_B {width: 50%; height: 50%; border: 1px solid #ccc; box-sizing: border-box; float: left; background-image: url(../img/best_03_big.PNG); background-size: 36%; background-position: 57%; background-position-y: 75%; background-repeat: no-repeat; position: relative;
-                >.bBhover{width: 100%; height: 100%; background-color: transparent;
-                &:hover{background-color: rgba(0,0,0,0.5); }
-                &:hover p:nth-child(1){ color: #fff;}
-                &:hover p:nth-child(2){display: block; color: #fff;}
-                    >p{position: absolute;  
-                    &:nth-child(1){left: 34%; top: 15px; font-size: 1.6em; color: $ggg; font-weight:500; }
-                    &:nth-child(2){left: 36%; top: 45%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}   
-                    }// p
-                }// .bBhover
+                a{width: 100%; height: 100%;
+                    .bBhover{width: 100%; height: 100%; background-color: transparent;
+                    &:hover{background-color: rgba(0,0,0,0.5); }
+                    &:hover p:nth-child(1){ color: #fff;}
+                    &:hover p:nth-child(2){display: block; color: #fff;}
+                        p{position: absolute;  
+                        &:nth-child(1){left: 34%; top: 15px; font-size: 1.6em; color: $ggg; font-weight:500; }
+                        &:nth-child(2){left: 36%; top: 45%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}   
+                        }// p
+                    }// .bBhover
+                }// a
             }// .best_B
 
             .mobUse{display: none;}
 
             .best_S2 {width: 25%; height: 50%; float: left;
                 .best_S2_01 {width: 100%; height: 50%; background-image: url(../img/best_04.PNG); background-size: 50%; background-position: center; background-position-y: 100%; background-repeat: no-repeat; position: relative;
-                    .bS2_01hover{width: 100%; height: 100%; background-color: transparent;
-                    &:hover{background-color: rgba(0,0,0,0.5);}                
-                    &:hover p{display: block; color: #fff;}
-                    >p{position: absolute; left: 21%; top: 34%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
-                    }// .bS2_01hover 
+                    a{width: 100%; height: 100%;
+                        .bS2_01hover{width: 100%; height: 100%; background-color: transparent;
+                        &:hover{background-color: rgba(0,0,0,0.5);}                
+                        &:hover p{display: block; color: #fff;}
+                        p{position: absolute; left: 21%; top: 34%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
+                        }// .bS2_01hover 
+                    }// a
                 }// .best_S2_01
                 .best_S2_02 {width: 100%; height: 50%; background-image: url(../img/best_05.PNG); background-size: 82%; background-position: center; background-repeat: no-repeat; position: relative;
-                    .bS2_02hover{width: 100%; height: 100%; background-color: transparent;
-                    &:hover{background-color: rgba(0,0,0,0.5);}                
-                    &:hover p{display: block; color: #fff;}
-                    >p{position: absolute; left: 26%; top: 28%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
-                    }// .bS2_02hover
+                    a{width: 100%; height: 100%;
+                        .bS2_02hover{width: 100%; height: 100%; background-color: transparent;
+                        &:hover{background-color: rgba(0,0,0,0.5);}                
+                        &:hover p{display: block; color: #fff;}
+                        p{position: absolute; left: 26%; top: 28%; font-size: 1.1em; text-align: center; display: none; line-height: 25px;}
+                        }// .bS2_02hover
+                    }// a
                 }// .best_S2_02
             }// .best_S2
 
@@ -171,9 +204,49 @@
                 }
             }       
         }// #board
+        
+        #topBtn{width: 2.3rem; height: 1.4rem; border-radius: 0.1rem; z-index: 500; position: fixed; bottom: 3%; right: 5%; /*margin-right: -2.5rem;*/ cursor: pointer; background-image: url(../img/topBtnS.png); background-repeat: no-repeat; background-size: contain;  background-color: rgba(0,0,0,0.2);
+            &:active{background-image: url(../img/topBtnS_allG.png); background-repeat: no-repeat; background-size: contain;}
+        }// #topBtn
 
-        #footBox {width: 100%; height: 140px; margin-top: 150px; background-color: $black;
-            
+        #footBox {width: 100%; height: auto; margin-top: 50px; background-color: $black; /*margin: 0 auto;*/
+            .centerBox {width: 970px; height: 300px; margin: 0 auto;
+                
+                h2 {width: 128px; height: auto; padding: 60px 30px 20px 46px; float: left;
+                    a{width: 70px; height: 100%; font-size: 1.9em; font-weight: bold; color: #ccc; 
+                        &:active{color: #777;}
+                    }
+                }                            
+                .addBox {width: 700px; height: 46px;  float: left; padding: 64px 20px 20px 20px;
+                    ul {width: 900px; height: 22px; margin: 0 auto;
+                        li {width: 100%; height: 14px; border-right: 1px solid #fff; float: left; text-align: center; line-height: 19px; /*list-style: none;*/ padding: 0 60px;
+                        &:nth-child(1) {width: 88px; padding-left: 0;} 
+                        &:nth-child(2) {width: 62px;} 
+                        &:nth-child(3) {width: 62px;}
+                        &:nth-child(4) {width: 122px; border-right: 0; padding-right: 0;}                
+                            a {width: 100%; height: 100%; color: #fff; font-size: 1rem; text-align: center;
+                                &:active{ text-decoration: underline;
+                                }
+                            }// a
+                        }// li
+                    }
+                }// .addBox
+                address {width: auto; height: auto; float: left; padding-left: 160px;
+                    p {line-height: 20px; color: #fff;
+                        &:nth-child(1){ font-size: 0.9rem;}
+                        &:nth-child(2){ padding-top: 16px; }
+                    }
+                }
+                .foot_mark {width: 90px; height: 60px; float: left;  margin: 30px 100px;
+                    a {width: 100%; height: 100%;
+                        &:hover{
+                        }
+                    }
+                    .f_mark {width: 100%; height: 100%; background-image: url(../img/foo_mark2.png); background-size: 100%; background-position: center; background-repeat: no-repeat;
+                        span{width: 0; height: 0; display: block; overflow: hidden;}
+                    }// .f_mark
+                }// .foot_mark
+            }// .centerBox            
         }// #footBox
     }// #wrap
 }// @pc
