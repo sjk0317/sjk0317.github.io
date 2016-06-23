@@ -1,0 +1,135 @@
+@import "./lib/base_cosecos";
+
+/*subJoin_2.scss*/
+
+.joinBox {width: 100%; height: 69rem;
+    #join {width: 55rem; height: auto; margin: 0 auto; margin-top: 1rem; box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+        
+    .category {width: 13rem; height: 30px; float: right; margin-top: 1rem; 
+        li {height: 12px; float: left; border-right: 1px solid #333; padding: 0 10px; 
+            &:nth-child(1) {width: 40px;}
+            &:nth-child(2) {width: 74px;}
+            &:nth-child(3) {width: 26px; border-right: 0;}
+        }
+        a {width: 100%; height: auto; float: left; text-align: center; line-height: 10px; color: #333;
+            &:hover{text-decoration: underline;
+            }
+        }
+    }
+        h2 {width: 95%; height: auto; margin: 2rem; font-size: 2rem; color: #333;}
+        .register {width: 95%; height: 6rem; border-bottom: 1px solid #ccc; margin: 0 auto;  line-height: 6.5rem; font-size: 1.2rem; color: #333; padding: 2rem 0 0 2rem;
+        }
+        form {width: 100%; height: auto; 
+        }
+        .set01 {width: calc(100% - 2rem); height: auto; padding: 2rem 0 0 2rem;
+        }
+        .join_1 {width: 100%; height: 6rem;  
+            dt {font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;
+            }        
+            span {display: none;
+            }
+            dd {width: 100%; height: auto;
+            }
+            input {width: 210px; height: 30px; border: 1px solid $sub2; float: left; box-sizing: border-box; text-indent: 0.3rem; margin-left: 4px;}
+            button {width: 100px; height: 30px; cursor: pointer; box-shadow: 1px 1px 5px rgba(0,0,0,0.5); border: 1px solid #333; box-sizing: border-box; background-color: #fff; margin-left: 2rem;
+            }
+        }
+
+        .join_2 {width: 100%; height: 6rem; 
+            dt {width: 30%; height: auto; font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;
+            }
+            span {display: none;
+            }
+            dd {width: 100%; height: auto;
+                input {width: 210px; height: 30px; border: 1px solid $sub2; float: left; box-sizing: border-box; margin-right: 1rem; text-indent: 0.3rem; margin-left: 4px;}
+                p {font-size: 0.9rem; display: block; float: left; line-height: 2rem;
+                }
+            }
+        }// .join_2
+
+        .join_3 {width: 100%; height: 6rem; 
+            dt {font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;
+            }
+            span {display: none;
+            }
+            dd {width: 100%; height: auto;
+            }
+            input {width: 210px; height: 30px; border: 1px solid $sub2; float: left; box-sizing: border-box; text-indent: 0.3rem; margin-left: 4px;  margin-right: 1rem;}
+            p {font-size: 0.9rem; line-height: 2rem;
+            }
+        }// .join_3
+
+        .join_4 {width: 100%; height: 6rem; 
+            dt {font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;
+            }
+            span {display: none;
+            }
+            dd {width: 100%; height: auto;
+            }
+            input {width: 210px; height: 30px; border: 1px solid $sub2; float: left; box-sizing: border-box; text-indent: 0.3rem; margin-left: 4px; margin-right: 1rem;}
+            p {font-size: 0.9rem; line-height: 2rem;
+            }
+        }// .join_4
+
+        .join_5 {width: 100%; height: 6rem; 
+            dt {font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;
+                span {display: none; 
+                }
+            }
+            dd {width: 100%; height: auto; float: left;
+                #phonNo {width: auto; height: 30px; border: 1px solid $sub2; box-sizing: border-box; margin-left: 4px; margin-right: 0.5rem; float: left;}
+                input {width: 110px; height: 30px; border: 1px solid $sub2;  box-sizing: border-box;  text-indent: 0.3rem; margin-right: 0.5rem; float: left;}
+
+                span {width: 10px; height: 15px; border-bottom: 1px solid #333; line-height: 30px; display: block; float: left; margin-right: 0.5rem;
+                }
+                label {display: none;
+                }
+            }// dd
+        }// .join_5
+
+        .join_6 {width: 100%; height: 6rem; 
+            dt {font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;
+            }
+            span {display: none;
+            }
+            dd {
+            }
+            input {width: 210px; height: 30px; float: left; border: 1px solid $sub2; box-sizing: border-box; margin-right: 1rem; text-indent: 0.3rem; margin-left: 4px;}
+            p {font-size: 0.9rem; line-height: 2rem;
+            }
+        }// .join_6
+
+        .join_7 {width: 100%; height: 6rem; 
+            p {font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;
+            }
+            li {margin-right: 1.5rem; float: left;
+            }
+            #Y {width: 100%; height: 30px; margin-left: 4px; border: 1px solid $sub2; box-sizing: border-box;
+            }
+            #M {width: 100%; height: 30px; border: 1px solid $sub2; box-sizing: border-box;
+            }
+            #D {width: 100%; height: 30px; border: 1px solid $sub2; box-sizing: border-box;
+            }
+        }// .join_7
+
+        .join_8 {width: 100%; height: 6rem; 
+            dt {font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;
+            }
+            span {display: none;
+            }
+            dd {margin-left: 4px;
+                input {margin-right: 0.2rem;}
+                label {font-size: 1rem; margin-right: 1rem;
+                }
+            }
+        }// .join_8
+        .set02 {width: 100%; height: 8rem; padding-top: 1rem; 
+            button {width: 140px; height: 40px; cursor: pointer; box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+                &:nth-of-type(1){background-color: #333; float:left; margin-left:130px; color: #fff;}
+                &:nth-of-type(2){border: 1px solid #333; box-sizing: border-box; background-color: #fff; float:right; margin-right:130px;}
+                    button[type="submit"]{ /*margin-left:130px;*/}
+                    button[type="reset"]{ /*margin-right:130px;*/}
+            }
+        }
+    }// #join
+}// .joinBox

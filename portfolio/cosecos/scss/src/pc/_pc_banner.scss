@@ -1,0 +1,8 @@
+// _pc_banner.scss
+
+@media screen and (min-width:978px) {
+
+#banner {width: 100%; height: 26.380368vw/* 258px/978px*100 */; margin-bottom: 20px; background-image: url(../img/banner_pc.jpg); background-size: cover; background-repeat: no-repeat; /*background-attachment: fixed; background-position-y: 160px;*/}
+
+}// @pc
+// _pc_banner.scss

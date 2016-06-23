@@ -1,0 +1,103 @@
+/*sub_new.scss*/
+#new {
+  width: 60rem;
+  height: 64rem;
+  margin: 0 auto;
+  margin-top: 1rem; }
+  #new .search {
+    width: 13rem;
+    height: auto;
+    margin-left: 45rem;
+    padding-top: 1rem; }
+    #new .search #searchBox {
+      width: 8rem;
+      height: 1.5rem;
+      border-bottom: 1px solid #333;
+      float: left;
+      margin-right: 1rem;
+      text-indent: 0.3rem; }
+    #new .search button {
+      width: 4rem;
+      height: 1.5rem;
+      background-color: #fff;
+      border: 1px solid #333;
+      box-sizing: border-box;
+      float: left; }
+  #new h2 {
+    width: 95%;
+    height: auto;
+    margin: 0.8rem;
+    font-size: 2rem;
+    color: #333; }
+  #new .category {
+    width: 9.5rem;
+    height: 30px;
+    float: right;
+    margin-top: 1rem; }
+    #new .category li {
+      height: 12px;
+      float: left;
+      border-right: 1px solid #333;
+      padding: 0 10px;
+      /*&:nth-child(3) {width: 90px; }*/ }
+      #new .category li:nth-child(1) {
+        width: 40px; }
+      #new .category li:nth-child(2) {
+        width: 54px;
+        border-right: 0; }
+    #new .category a {
+      width: 100%;
+      height: auto;
+      float: left;
+      text-align: center;
+      line-height: 10px;
+      color: #333; }
+      #new .category a:hover {
+        text-decoration: underline; }
+  #new .pd {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 2rem; }
+    #new .pd ul {
+      width: 100%;
+      height: auto;
+      margin-top: 3rem; }
+    #new .pd li {
+      width: 25%;
+      height: 16rem;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      float: left;
+      background-image: url(../img/pro_cosme.PNG);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-position-y: 20%;
+      background-size: 45%;
+      position: relative; }
+    #new .pd p {
+      position: absolute;
+      top: 80%;
+      left: 8%; }
+  #new .pager {
+    width: 10rem;
+    height: 1.5rem;
+    float: left;
+    padding-left: 50rem; }
+    #new .pager i {
+      font-size: 1.2rem;
+      color: #999;
+      margin-right: 0.3rem; }
+      #new .pager i:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        color: #333; }
+    #new .pager a {
+      font-size: 1rem;
+      color: #999;
+      margin-right: 0.3rem; }
+      #new .pager a:hover {
+        text-decoration: underline;
+        color: #333; }
+
+/*# sourceMappingURL=sub_new.css.map */

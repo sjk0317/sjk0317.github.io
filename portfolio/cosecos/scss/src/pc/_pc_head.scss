@@ -1,0 +1,71 @@
+// _pc_head.scss
+
+@media screen and (min-width:978px) {
+
+#headBox {width: 100%; height: 10rem; 
+
+    .sitemap{width: 100%; height: 30px; background-color: $black;
+        .sitemapBox{width: 978px; height: 100%; margin: 0 auto;
+            .nav_1{width: 315px; height: 100%; float: right; padding-top: 2px;
+
+                li{width: 100%; height: 100%; line-height: 30px;
+                 float: left; margin-right: 20px; text-align: center;
+                &:nth-child(1){width: 46px;}
+                &:nth-child(2){width: 34px;}
+                &:nth-child(3){width: 62px;}
+                &:nth-child(4){width: 40px;}
+                &:nth-child(5){width: 18px; margin-right: 0;}
+
+                    a{width: 100%; height: 100%; color: #fff;  font-size: 1em; /*font-weight: 500;*/ }
+                    a:hover {text-decoration: underline;}
+                    i{color: #fff; font-size: 1.2em; cursor: pointer;}
+                    i:hover {text-decoration: underline;}
+                }// li
+            } //.nav_1
+        }// .sitemapBox
+    } // .sitemap        
+
+    .h_menu{width: 100%; height: 100%; 
+        >h1{width: 100%; height: 40px; padding: 20px 0;
+
+            >a{width: 154px; height: 40px; background-image: url(../img/index_slice/header/h_logo.gif); background-size: contain; background-repeat: no-repeat; background-position: center; margin: 0 auto; display: block;}                
+        } // h1        
+
+        >.nav_2{display: none;}
+        .gnb{width: 100%; height: 50px; border-top: 1px solid $ggg; box-sizing: border-box; box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+            ul{width: 968px; height: 30px; padding-top: 10px; margin: 0 auto;
+                
+                li{width: 100%; height: 100%; line-height: 35px; float: left; /*margin-right: 68px;*/ text-align: center;
+                &:nth-child(1){width: 126px;}
+                &:nth-child(2){width: 150px;}
+                &:nth-child(3){width: 164px;}
+                &:nth-child(4){width: 108px;}
+                &:nth-child(5){width: 174px;}
+                &:nth-child(6){width: 120px;}
+                &:nth-child(7){width: 116px; /*margin-right: 0;*/}
+                /*&:hover .productBox {display: block; transition: all 0.3s ease-in-out;}*/
+                
+                    a{width: 100%; height: 100px; color: $ggg; font-size: 1.2em; font-weight: 500; text-align: center;                    
+                    &:hover {color: rgba($main,0.8);}
+                    
+                    }
+                    /*.productBox {width: 51rem; height: 12rem;  background-color: #fff; box-shadow: 5px 5px 5px rgba(0,0,0,0.5); display: none;
+                    
+                        li {width: 20%; height: 2.4rem; line-height: 2.7rem; text-align: center; font-size: 0.9rem; float: left; 
+                        &:nth-child(1) {}
+                        &:nth-child(5) {}
+                        }
+                        a {
+                            &:hover{
+                            }
+                        }
+                    }// .productBox*/
+
+                }// li
+            } // ul
+        } // .gnb        
+    } //.h_menu        
+}// #headBox
+
+}// @pc
+// _pc_head.scss

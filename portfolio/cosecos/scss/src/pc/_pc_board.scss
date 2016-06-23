@@ -1,0 +1,31 @@
+// _pc_board.scss
+
+@media screen and (min-width:978px) {
+
+#board {width: 810px; height: 200px; margin: 0 auto; margin-top: 150px;
+            .noticeBox {width: 45%; height: 200px; float: left;
+                h2 {width: 100%; height: 28px; margin: 0 auto; border-bottom: 1px solid #ccc; color: $ggg; font-size: 1.2em; font-weight: 500;}
+                ul {width: 100%; height: auto; margin: 0 auto; margin-top: 14px;
+                    li {width: 100%; height: 22px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+                        a {width: 100%; height: 100%; font-size: 1em; color: #333;      
+                            &:hover{text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }        
+            .qnaBox {width: 45%; height: 200px; float: right;
+                h2 {width: 100%; height: 28px; margin: 0 auto; border-bottom: 1px solid #ccc; color: $ggg; font-size: 1.2em; font-weight: 500;}
+                ul {width: 100%; height: auto; margin: 0 auto; margin-top: 14px;      
+                    li {width: 100%; height: 22px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+                        a {width: 100%; height: 100%; font-size: 1em; color: #333;
+                            &:hover{text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }       
+        }// #board
+
+}// @pc
+// _pc_board.scss

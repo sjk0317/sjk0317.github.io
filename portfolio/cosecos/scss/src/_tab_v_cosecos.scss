@@ -10,11 +10,11 @@
                     &:hover{text-decoration: underline;}
                 }
             }        
-            button{width: 2rem; height: 2rem; float: right; color: #333;  font-size: 2rem; position: absolute; top: 40%; right: 1%;}
+            button{width: 2rem; height: 2rem; background-image: url(../img/close.png); background-repeat: no-repeat;  background-size: cover; float: right; color: #333;  font-size: 2rem; position: absolute; top: 40%; right: 1%;}
         }// #topAdd
     
         #headBox {width: 100%; height: 60px; margin-bottom: 20px; padding: 16px 26px 0 24px; border-bottom: 1px solid $ggg; box-sizing: border-box;           
-            >.sitemap{display: none;} 
+            >.sitemap{display: none;} // pc에서씀
             
             >.h_menu{width: 100%; height: 100%;
                 
@@ -25,9 +25,10 @@
                 
                 .nav_2{width: 100%; height: 100%;
                     i{width: 26px; height: 26px; /*margin-right: 24px;*/ float: right; font-size: 1.7em; text-align: center; cursor: pointer; color: $ggg;}
-                    li{display: none;}
+                    .miniMBox {display: none;} //클릭시 보여야됨
+                    
                 }// .nav_2
-                .gnb{display: none;}
+                .gnb{display: none;} // pc에서씀
             }// .h_menu
         }// #headBox
     
