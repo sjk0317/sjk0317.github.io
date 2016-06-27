@@ -3,7 +3,7 @@ function gallery(){
 			gallerybox = $('#gallery'),
 			gallerybtn = gallerybox.find('a');
 
-	imgbox.html("<img src='./img/10_2.png'>").find('img')
+	imgbox.html("<img src='./img/g10.png'>").find('img')
 				.css({'width': 100+'%', 'height': 100+'%'});
 
 	// 이미지 설명넣기위한 상자만들기
