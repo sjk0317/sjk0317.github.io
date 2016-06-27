@@ -1,0 +1,28 @@
+// _pc_slide_banner.scss
+
+@media screen and (min-width:978px) {
+    
+
+    #content2{width: 100vw;height: 500px;margin: 10px auto;border: 1px solid #0af; position: relative; background-color: #eee;
+     overflow: hidden; }
+    .btn{width: 100%; height: 0; position: relative;}
+    .btn>button{width: 50px;height: 500px; position: absolute; top:0; background-color:rgba(255,255,255,0.5);}
+    .btn>button:hover{background-color:rgba(255,255,255,0.8);}
+    .btn>button.l_btn{left: 0;}
+    .btn>button.r_btn{right: 0;}
+    
+    .ban{width: 600%; height: 100%; margin-left: -100%;}
+    .ban>li{width:calc(100% / 6); height: 100%; float:left; text-align: center; line-height: 500px; font-size: 4rem;}
+    .box1{background-color:#0cf;}
+    .box2{background-color:#f5c;}
+    .box3{background-color:#aac;}
+    .box4{background-color:#ac7;}
+    .box5{background-color:#7ac;}
+    
+    .ind{width: 400px; height: 20px; position: absolute; bottom: 10px; left: 50%; margin-left: -200px;}
+    .ind>li{width: 20px; height: 20px; background-color:#ccc; border-radius:10px; float: left; margin-left: 30px;text-align: center; line-height: 20px; cursor: pointer; transition:all 0.5s;}
+    .ind>li span{width: 0;height: 0;display: block; overflow: hidden;}
+    .ind>li:hover{background-color: #faa; }
+    .ind>li.indWidth{width:60px; background-color: $main;  box-shadow:2px 2px 2px #515151;}
+}// @pc
+// _pc_content.scss

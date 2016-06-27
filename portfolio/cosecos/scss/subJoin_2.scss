@@ -16,7 +16,7 @@
             }
         }
     }
-        h2 {width: 95%; height: auto; margin: 2rem; font-size: 2rem; color: #333;}
+        h2 {width: 93%; height: auto; margin: 2rem; font-size: 2rem; color: #333; border-bottom: 1px solid #ccc;}
         .register {width: 95%; height: 6rem; border-bottom: 1px solid #ccc; margin: 0 auto;  line-height: 6.5rem; font-size: 1.2rem; color: #333; padding: 2rem 0 0 2rem;
         }
         form {width: 100%; height: auto; 
@@ -123,7 +123,7 @@
                 }
             }
         }// .join_8
-        .set02 {width: 100%; height: 8rem; padding-top: 1rem; 
+        .set02 {width: 75%; height: 8rem; padding-top: 1rem; margin-left: 7rem;
             button {width: 140px; height: 40px; cursor: pointer; box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
                 &:nth-of-type(1){background-color: #333; float:left; margin-left:130px; color: #fff;}
                 &:nth-of-type(2){border: 1px solid #333; box-sizing: border-box; background-color: #fff; float:right; margin-right:130px;}

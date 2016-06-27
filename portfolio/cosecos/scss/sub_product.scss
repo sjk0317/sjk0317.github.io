@@ -10,13 +10,12 @@
         }        
     }
     
-    h2 {width: 95%; height: auto; margin: 0.8rem; font-size: 2rem; color: #333;
+    h2 {width: 98%; height: auto; margin: 0.8rem; font-size: 2rem; color: #333; border-bottom: 1px solid #ccc;
     }
     .category {width: 9.5rem; height: 30px; float: right; margin-top: 1rem; 
         li {height: 12px; float: left; border-right: 1px solid #333; padding: 0 10px; 
             &:nth-child(1) {width: 40px;}
             &:nth-child(2) {width: 54px; border-right: 0;}
-            /*&:nth-child(3) {width: 90px; }*/
         }
         a {width: 100%; height: auto; float: left; text-align: center; line-height: 10px; color: #333;
             &:hover{text-decoration: underline;

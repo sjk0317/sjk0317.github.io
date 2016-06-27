@@ -35,11 +35,12 @@
         .joinBox #join .category a:hover {
           text-decoration: underline; }
     .joinBox #join h2 {
-      width: 95%;
+      width: 93%;
       height: auto;
       margin: 2rem;
       font-size: 2rem;
-      color: #333; }
+      color: #333;
+      border-bottom: 1px solid #ccc; }
     .joinBox #join .register {
       width: 95%;
       height: 6rem;
@@ -264,9 +265,10 @@
           font-size: 1rem;
           margin-right: 1rem; }
     .joinBox #join .set02 {
-      width: 100%;
+      width: 75%;
       height: 8rem;
-      padding-top: 1rem; }
+      padding-top: 1rem;
+      margin-left: 7rem; }
       .joinBox #join .set02 button {
         width: 140px;
         height: 40px;

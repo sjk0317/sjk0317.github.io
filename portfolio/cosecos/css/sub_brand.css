@@ -24,11 +24,12 @@
       box-sizing: border-box;
       float: left; }
   #brand h2 {
-    width: 95%;
+    width: 98%;
     height: auto;
     margin: 0.8rem;
     font-size: 2rem;
-    color: #333; }
+    color: #333;
+    border-bottom: 1px solid #ccc; }
   #brand .category {
     width: 9.5rem;
     height: 30px;
@@ -38,12 +39,11 @@
       height: 12px;
       float: left;
       border-right: 1px solid #333;
-      padding: 0 10px;
-      /*&:nth-child(3) {width: 90px; }*/ }
+      padding: 0 10px; }
       #brand .category li:nth-child(1) {
         width: 40px; }
       #brand .category li:nth-child(2) {
-        width: 54px;
+        width: 40px;
         border-right: 0; }
     #brand .category a {
       width: 100%;

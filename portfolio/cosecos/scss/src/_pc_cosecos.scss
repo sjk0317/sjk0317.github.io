@@ -1,8 +1,10 @@
 @import "./src/pc/pc_head";
 @import "./src/pc/pc_banner";
 @import "./src/pc/pc_content";
+@import "./src/pc/pc_gallery";
 @import "./src/pc/pc_board";
 @import "./src/pc/pc_foot";
+
 
 // 1. pc_cosecos.scss
 
@@ -18,7 +20,8 @@
                         &:hover{text-decoration: underline;}
                     }
                 }        
-                button{width: 2rem; height: 2rem; background-image: url(../img/close.png); background-repeat: no-repeat;  background-size: cover; float: right; color: #333;  font-size: 2rem; position: absolute; top: 36%; right: 7%;}
+                button{width: 2rem; height: 2rem; background-image: url(../img/close.png); background-repeat: no-repeat;  background-size: cover; float: right; color: #333;  font-size: 2rem; position: absolute; top: 36%; right: 7%; cursor: pointer;
+                }
             }// #topAdd
         }// .center_box
         

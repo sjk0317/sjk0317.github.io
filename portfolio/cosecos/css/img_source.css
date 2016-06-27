@@ -1,0 +1,10 @@
+#wrap {
+  width: 50rem;
+  height: 50rem;
+  margin: 0 auto; }
+  #wrap h1 {
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/cl_02); }
+
+/*# sourceMappingURL=img_source.css.map */

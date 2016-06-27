@@ -1,0 +1,112 @@
+/*sub_product_2.scss*/
+#product_2 {
+  width: 60rem;
+  height: 64rem;
+  margin: 0 auto;
+  margin-top: 1rem; }
+  #product_2 .search {
+    width: 13rem;
+    height: auto;
+    margin-left: 45rem;
+    padding-top: 1rem; }
+    #product_2 .search #searchBox {
+      width: 8rem;
+      height: 1.5rem;
+      border-bottom: 1px solid #333;
+      float: left;
+      margin-right: 1rem;
+      text-indent: 0.3rem; }
+    #product_2 .search button {
+      width: 4rem;
+      height: 1.5rem;
+      background-color: #fff;
+      border: 1px solid #333;
+      box-sizing: border-box;
+      float: left; }
+  #product_2 h2 {
+    width: 98%;
+    height: auto;
+    margin: 0.8rem;
+    font-size: 2rem;
+    color: #333;
+    border-bottom: 1px solid #ccc; }
+  #product_2 .category {
+    width: 15.4rem;
+    height: 30px;
+    float: right;
+    margin-top: 1rem; }
+    #product_2 .category li {
+      height: 12px;
+      float: left;
+      border-right: 1px solid #999;
+      padding: 0 10px; }
+      #product_2 .category li:nth-child(1) {
+        width: 40px; }
+      #product_2 .category li:nth-child(2) {
+        width: 54px; }
+      #product_2 .category li:nth-child(3) {
+        width: 90px;
+        border-right: 0;
+        line-height: 10px;
+        color: #777; }
+    #product_2 .category a {
+      width: 100%;
+      height: auto;
+      float: left;
+      text-align: center;
+      line-height: 10px;
+      color: #555; }
+      #product_2 .category a:hover {
+        text-decoration: underline; }
+  #product_2 .pd2 {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 2rem; }
+  #product_2 .pd {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 2rem; }
+    #product_2 .pd ul {
+      width: 100%;
+      height: auto;
+      margin-top: 3rem; }
+    #product_2 .pd li {
+      width: 25%;
+      height: 16rem;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      float: left;
+      background-image: url(../img/pro_cosme.PNG);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-position-y: 20%;
+      background-size: 45%;
+      position: relative; }
+    #product_2 .pd p {
+      position: absolute;
+      top: 80%;
+      left: 8%; }
+  #product_2 .pager {
+    width: 10rem;
+    height: 1.5rem;
+    float: left;
+    padding-left: 50rem; }
+    #product_2 .pager i {
+      font-size: 1.2rem;
+      color: #999;
+      margin-right: 0.3rem; }
+      #product_2 .pager i:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        color: #333; }
+    #product_2 .pager a {
+      font-size: 1rem;
+      color: #999;
+      margin-right: 0.3rem; }
+      #product_2 .pager a:hover {
+        text-decoration: underline;
+        color: #333; }
+
+/*# sourceMappingURL=sub_product_2_1.css.map */
